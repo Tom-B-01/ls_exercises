@@ -1,0 +1,10 @@
+def multiply (num_1, num_2)
+  num_1 * num_2
+end
+
+def square (num)
+  multiply(num, num)
+end
+
+puts square(4) == 16
+puts square(-8) == 64
